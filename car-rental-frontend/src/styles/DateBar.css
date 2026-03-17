@@ -1,0 +1,61 @@
+.date-bar {
+    background: #1a3a5c;
+    border-radius: 10px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.date-bar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.date-bar-lbl {
+    font-size: 10px;
+    color: rgba(255,255,255,0.55);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.date-bar-val {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.date-bar-divider {
+    width: 0.5px;
+    height: 32px;
+    background: rgba(255,255,255,0.2);
+    flex-shrink: 0;
+}
+
+.date-surcharge-flag {
+    color: #FCEBEB;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 2px;
+}
+
+.date-bar-modify-btn {
+    margin-left: auto;
+    background: transparent;
+    color: #fff;
+    border: 0.5px solid rgba(255,255,255,0.35);
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+}
+
+.date-bar-modify-btn:hover {
+    background: rgba(255,255,255,0.1);
+}
